@@ -1,0 +1,2 @@
+<button *ngIf="shouldInstall()" class="install" (click)="installPWA()">Install as an application</button>
+<button *ngIf="updateAvailable" class="update" (click)="reload()">Update available. Click to refresh</button>
